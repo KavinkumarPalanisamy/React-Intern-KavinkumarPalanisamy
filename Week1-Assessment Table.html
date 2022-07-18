@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html {
+            overflow-x: clip;
+            width: 100vw;
+        }
+        table {
+            width: 100%;
+            margin-top: 10px;
+        }
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+        .first {
+
+            display: flex;
+        }
+        .title {
+            text-align: left;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .add {
+            width: 90px;
+            height: 18px;
+            border-radius: 26px;
+            background-color: blue;
+            text-align: center;
+            padding: 1px 0px;
+        }
+        .fa-trash {
+            margin-left: 5px;
+        }
+
+    </style>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="first">
+        <div class="title">Employee Details</div>
+        <div class="add">+ Add New</div>
+    </div>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Department</td>
+            <td>Phone</td>
+            <td>Actions</td>
+        </tr>
+        <tr> 
+            <td>John Doe</td>
+            <td>Administration</td>
+            <td>(171)555-2222</td>
+            <td><button class="btn"><i class='fa fa-pencil'></i><i class="fa fa-trash"></i></button></td>
+        </tr>
+        <tr>
+            <td>Peter Parker</td>
+            <td>Customer Service</td>
+            <td>(313)555-5735</td>
+            <td><button class="btn"><i class='fa fa-pencil'></i><i class="fa fa-trash"></i></button></td>
+        </tr>
+        <tr>
+            <td>Fran Wilson</td>
+            <td>Human Resource</td>
+            <td>(503)555-9931</td>
+            <td><button class="btn"><i class='fa fa-pencil'></i><i class="fa fa-trash"></i></button></td>
+        </tr>
+    </table>
+</body>
+
+</html>
