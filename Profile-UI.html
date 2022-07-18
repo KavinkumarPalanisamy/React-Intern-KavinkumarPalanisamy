@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html {
+            overflow-x: clip;
+            width: 100vw;
+        }
+
+        body {
+            margin: 0%;
+            padding: 0%;
+            color: white;
+        }
+
+        .first {
+            padding: 50px 0px 50px 32px;
+            width: 100%;
+            background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwoQEBAPCg0QDQ0NDw0KDg0ODw8IDw0QFxEWFiAdExMYHSggGBomGxMTITEhJSkrLi4uFx8zODMsNygtLzMBCgoKDQ0NDg0NDysZHxktLSsrKy0rKysrKysrLSsrKysrKystKy0rKysrKysrKysrKy0rKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAAAAQMEAgUG/8QAKxABAAECBQMDBAMBAQAAAAAAAAECEgMEESExInGBMkGxBVGRwWFyofEU/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEG/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A+QAaZlCJb8L6ht106z9492ABfmczNftpTHEc/lQAAAAAAAC/Bjbyoa8tHT5lRFqrHjjy12s+bjjyDOAgAAAAAA05XNzRtMXU/iYWY+e1jSiNNeZnnwxCgAgLsGNvKlqysbT3/UKFqrHjjy12s+bjjyDOAgAABonQEAAAAAAAAAAN+Sjp8ywNn0/FiNaattd4n+VGq1kz8enz+nozS8rOYsVVdPEbR/IKA0ToggAADQATojQAAAABuyMdM/2n4hha8hixEzTVtFXE/wAqNdrLn49Pn9PQteXncWKquneKdtfvIM4aJ0QQAC2mnZNqyinaO0OrVGWuN3LvGjefDhAAAAAAAAAAB1NdWmkzOn21nRyALopLVsUptUZK+UOsXmXKA7w4cL8vG09wRa4xIabVWYjaFFACAAAACb6tNNZ0+2s6IAFsUptWU07R2h1aoyVxulONHVPj4EG3Cp6ae0fDq13gR00/1j4d2qPMzMdU+PhUuznrnx8KQAEAAAAAAAAAAHo007R2hNqzDjaO0T/jq1R5eY9Uq1uZ9dXfRUgNeUjae7I3fT42nv8ApRZaz5yNo7t1rJ9Q4p7yDEAgAAAAAA9DDp2jtHw6td4MdNP9Y+Hdqjy8z6p8fAnN+urx8QCr8lmqaYtr49p50aMXN4UR0zdPtEa/68sETVVMzMzzO8oBAAAAAAAAAAAABtyeapiLcTbTiefyuxs5hxHRN1XtzpHd5goTP37gIC7K49k68xO0wpAet/6sHTW7xpOrzszjX1a8RG0R/CoUAEAAAAAAGzJ5qmItr49p507tGNnMOI6Zun2iNdPLyxRNUzM6zzO8iBAAAAAAAAAE2lqiAEAAAAAAAAAAAAAToWqIAQAAAAAAAAAAAAAAAAX2lq60tUY6uZQ6xOZ7y5QAAAAAAAAAAAAXWptWxSm1Rjq5Q6xeZ7uUAAAAAAAAAAAAAAAAHp2lq2I13j33TaqvIxfVV3n5cusWeqrT7z8uUQAAAAAAAAAAAB6UUptWURrETHvES6tVXk4/qnu4WZieqrT7yrRAAAAAAAAAAAAAAAAG3K5q2La4mYjiY3mHeYzkTGmHE77XTtp2ZrS1RQJq5nuhATEIW4cbKK7SYXWq8WOAcAIAAAAAANeUzlsW1xMx7THMLMfPU6aYcTrPvO2nZgFABAAAAAAAAAAAAAAAABttLV1pao87E5nvLl3i+qrvPy4QGnLxt5Zm3KR0+ZULVGZjjy22sudj0+f0DMAgAAAAAAAAAAAAAAAAAAAAAAAAAA9ineImOJjVNrz8tm5ojSYup/Ew6zGemqNKYtidpnXWZUZsWdapmPeZn/XIIDf9P3pmPeJYFmDi1UTrT2mPaYUeraw/UZ3pj7RM/n/iyr6jGm1G/wDM6ww11zMzNW8yCAEAAAAAAAAAAAAAAAAAAAAAAAAAAAACE6ABogAAAAAAAAAAAAAAAAAAAAAAAf/Z");
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .second {
+            box-sizing: border-box;
+            background-color: blue;
+            width: 100%;
+            padding-left: 20px;
+        }
+
+        .third {
+            box-sizing: border-box;
+            background-color: lightseagreen;
+            width: 100%;
+            padding: 20px;
+        }
+
+        img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+
+        .name {
+            font-size: 44px;
+            font-weight: 600;
+        }
+
+        .role {
+            font-size: 18px;
+            padding-top: 10px;
+        }
+
+        .details {
+            font-size: 18px;
+            font-weight: 400;
+            padding: 18px 0px;
+        }
+
+        .about {
+            border-left: 3px solid cadetblue;
+            padding-left: 10px;
+            font-size: 22px;
+        }
+
+        .border-left {
+            padding-left: 10px;
+            border-left: 2px solid cadetblue;
+        }
+
+        .row {
+            width: 100%;
+            display: flex;
+        }
+
+        .col {
+            width: 33.33%;
+            padding: 10px 10px 10px 0px;
+            margin-bottom: 16px;
+        }
+        .text-color {
+            color:cadetblue;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="first">
+        <div>
+            <img src="https://media.istockphoto.com/photos/headshot-portrait-of-smiling-ethnic-businessman-in-office-picture-id1300512215?k=20&m=1300512215&s=612x612&w=0&h=enNAE_K3bhFRebyOAPFdJtX9ru7Fo4S9BZUZZQD3v20=" alt="profile">
+        </div>
+        <div class="name">Jonathan Atkinson</div>
+        <div class="role">UX Specialist</div>
+    </div>
+    <div class="second">
+        <div class="details text-color">AT A GLANCE</div>
+        <div class="row">
+            <div class="col">
+                <div class="border-left">
+                    <div class="text-color">FULL NAME</div>
+                    <span>Bruce 'the bat' Wayne</span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="border-left">
+                    <div class="text-color">BIRTHPLACE</div>
+                    <span>Lancashire, England</span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="border-left">
+                    <div class="text-color">BORN</div>
+                    <span>1970</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="border-left">
+                    <div class="text-color">RESIDENCE</div>
+                    <span>Mechanicsburg, OH</span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="border-left">
+                    <div class="text-color">EDUCATION</div>
+                    <span>BS, MS, MBA</span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="border-left">
+                    <div class="text-color">HOBBIES</div>
+                    <span>Television, Movies, Art</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="third">
+        <h3 class="about">ABOUT ME</h3>
+        <div>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, <b>ipsum sed pharetra gravida</b>,
+            orci magna rhoncus neque,
+            id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat
+            condimentum. Aliquam erat volutpat.
+            Sed quis velit. Nulla facilisi. Nulla libero. Vivamus pharetra posuere sapien. Nam consectetuer. Sed
+            aliquam, nunc eget euismod ullamcorper,
+            lectus nunc ullamcorper orci, fermentum bibendum enim nibh eget ipsum.</div>
+        <h2>&#34; I wish to expand my skills on a daily basis with the help of an employee-focused company.</h2>
+    </div>
+
+</body>
+
+</html>
