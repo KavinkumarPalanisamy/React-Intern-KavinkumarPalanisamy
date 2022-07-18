@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html {
+            overflow-x: clip;
+            width: 100vw;
+        }
+        .outer {
+            background-color: black;
+            padding: 10px;
+
+        }
+
+        .title {
+            color: lightcoral;
+            text-align: center;
+            font-weight: 800;
+            letter-spacing: 6px;
+        }
+
+        .name {
+            margin-top: 20px;
+        }
+
+        form {
+            display: flex;
+            color: white;
+        }
+
+        .lastname {
+            padding-left: 20px;
+        }
+
+        label {
+            color: cadetblue;
+            font-size: 16px;
+        }
+        .emailaddress {
+            margin-top: 10px;
+        }
+        .gendervalue {
+            margin-top: 10px;
+        }
+    
+        .addresscountry {
+            margin-top: 10px;
+        }
+        .registernow {
+            margin-top: 10px;
+        }
+        input[value="REGISTER NOW"] {
+            background-color: violet;
+        }
+        input {
+            width: 100%;
+        }
+        * {
+            box-sizing: border-box;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="title">REGISTRATION FORM</div>
+        <div class="name">
+            <form action="" id="form1">
+                <div class="firstname">
+                    <label for="fname">First Name</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                </div>
+                <div class="lastname">
+                    <label for="lname">Last Name</label><br>
+                    <input type="text" id="lname" name="lname">
+                </div>
+            </form>
+        </div>
+        <div class="emailaddress">
+            <label for="emailid">Email Address</label><br>
+            <input type="email" id="emailid" name="emailid" form="form1"><br>
+        </div>
+        <div class="gendervalue">
+            <label for="gender">Gender</label><br>
+            <div style="display: flex;">
+                <input type="button" id="gender" name="gender" value="MALE" form="form1">
+                <input type="button" id="gender" name="gender" value="FEMALE" form="form1">
+            </div><br>
+        </div>
+        <div class="addresscity">
+            <label for="city">City</label><br>
+            <input type="text" id="city" name="city" form="form1"><br>
+        </div>
+        <div class="addresscountry">
+            <label for="country">Country</label><br>
+            <input type="text" id="country" name="country" form="form1"><br>
+        </div>
+        <div class="registernow">
+            <input type="button" value="REGISTER NOW" form="form1">
+        </div>
+    </div>
+</body>
+
+</html>
